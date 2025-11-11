@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppointmentScheduler.Model
 {
-    internal abstract class BaseClass
+    public abstract class BaseClass
     {
         public string CreateDate { get; set; }
 

@@ -159,7 +159,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Architecture\ArchitectureTests.cs" />
+    <Compile Include="Database\DbConnectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

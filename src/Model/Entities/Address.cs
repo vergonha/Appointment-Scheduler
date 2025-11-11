@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppointmentScheduler.Model
 {
-    internal class Address : BaseClass
+    public class Address : BaseClass
     {
         public int AddressID { get; set; }
 
