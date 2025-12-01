@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace AppointmentScheduler.Tests
+namespace AppointmentScheduler.Tests.Architecture
 {
     [TestFixture]
     public class ArchitectureTests

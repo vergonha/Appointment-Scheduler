@@ -2,7 +2,7 @@
 using AppointmentScheduler.Database;
 using System.Data;
 
-namespace AppointmentScheduler.Tests
+namespace AppointmentScheduler.Tests.Database
 {
     [TestFixture]
     public class DbConnectionTests
