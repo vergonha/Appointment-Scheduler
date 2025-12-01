@@ -159,9 +159,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acceptance\AcceptanceScenarioTests.cs" />
     <Compile Include="Architecture\ArchitectureTests.cs" />
+    <Compile Include="BlackBox\BlackBoxTests.cs" />
     <Compile Include="Database\DbConnectionTests.cs" />
+    <Compile Include="Integration\AppointmentControllerIntegrationTests.cs" />
+    <Compile Include="Interface\ContractTests.cs" />
+    <Compile Include="Performance\PerformanceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\SecurityTests.cs" />
+    <Compile Include="System\EndToEndTests.cs" />
+    <Compile Include="Unit\AppointmentControllerTests.cs" />
+    <Compile Include="Unit\CustomerControllerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
